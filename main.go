@@ -38,4 +38,7 @@ func main() {
 	}
 
 	color.Auto("Success: Successfully dockerized application!")
+	color.Auto("")
+	color.Auto("If you want to build the image ready to be used by docker, go to 'dockerizego' and run:")
+	color.Auto("docker build -t [image-name] -f Dockerfile .")
 }
